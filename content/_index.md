@@ -12,7 +12,7 @@ OptAzur hosts a monthly seminar in Nice & Sophia-Antipolis.
 
 ## Events
 
-- [Bilevel optimization in machine learning and imaging sciences workshop](https://iciam2023.org/accepted_ms#00400_Bilevel_optimization_in_machine_learning_and_imaging_sciences) @[ICIAM 2023](https://iciam2023.org/accepted_ms#00400_Bilevel_optimization_in_machine_learning_and_imaging_sciences), Tokyo, Japan. (organizers: L. Calatroni, S. Vaiter)
+- [Bilevel optimization in machine learning and imaging sciences workshop](https://iciam2023.org/registered_data?id=00400) @[ICIAM 2023](https://iciam2023.org/accepted_ms#00400_Bilevel_optimization_in_machine_learning_and_imaging_sciences), Tokyo, Japan. (organizers: L. Calatroni, S. Vaiter)
 
 ## Participants
 
