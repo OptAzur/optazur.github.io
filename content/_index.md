@@ -6,7 +6,7 @@ OptAzur is an ongoing effort to foster collaborations of members of Université 
 
 OptAzur hosts a monthly seminar in Nice & Sophia-Antipolis.
 
-<iframe src="https://calendar.google.com/calendar/embed?src=777634d8e23d216a22f2e45d2f1c56cfd1b2cafd4dedb0f48458a55bef4f7a0f%40group.calendar.google.com&ctz=Europe%2FParis" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=777634d8e23d216a22f2e45d2f1c56cfd1b2cafd4dedb0f48458a55bef4f7a0f%40group.calendar.google.com&ctz=Europe%2FParis" style="border: 0" width="800" height="350" frameborder="0" scrolling="no"></iframe>
 
 ### Next talk
 
