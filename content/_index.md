@@ -21,4 +21,6 @@ The members organize several conferences and workshop relevant to the optimizati
 ## Scientific Committee
 
 - [Luca Calatroni](https://sites.google.com/view/lucacalatroni/home) (co-organizer)
+- [Jean-Baptiste Caillau](https://caillau.perso.math.cnrs.fr)
+- [Laure Blanc-Féraud](https://www.i3s.unice.fr/~blancf/)
 - [Samuel Vaiter](https://samuelvaiter.com) (co-organizer)
