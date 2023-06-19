@@ -1,6 +1,6 @@
 # OptAzur: Optimization in French Riviera
 
-OptAzur is an ongoing effort to foster collaborations of members of Université Côte d'Azur on different aspect of optimization and its applications to machine learning, imaging and signal processing, etc. 
+OptAzur is an ongoing effort to foster collaborations among members of Université Côte d'Azur on different aspect of optimization and its applications to machine learning, imaging and signal processing, etc. 
 
 ## Seminar
 
@@ -16,7 +16,9 @@ OptAzur hosts a monthly seminar in Nice & Sophia-Antipolis.
 
 The members organize several conferences and workshop relevant to the optimization community, as detailled below.
 
-- [Bilevel optimization in machine learning and imaging sciences workshop](https://iciam2023.org/registered_data?id=00400) @[ICIAM 2023](https://iciam2023.org/accepted_ms#00400_Bilevel_optimization_in_machine_learning_and_imaging_sciences), Tokyo, Japan. (organizers: L. Calatroni, S. Vaiter)
+- [Bilevel optimization in machine learning and imaging sciences workshop](https://iciam2023.org/registered_data?id=00400) @[ICIAM 2023](https://iciam2023.org/accepted_ms#00400_Bilevel_optimization_in_machine_learning_and_imaging_sciences), Tokyo, Japan. (Organizers: L. Calatroni, S. Vaiter)
+
+- [Optimal control: methods and applications](https://iciam2023.org/registered_data?id=00731) @[ICIAM 2023](https://iciam2023.org), Tokyo, Japan. (Organizers: J.-B. Caillau, L. Dell'Elce, Clément Moreau)
 
 ## Scientific Committee
 
