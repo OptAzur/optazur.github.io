@@ -4,11 +4,19 @@ OptAzur is an ongoing effort to foster collaborations among members of Universit
 
 ## Seminar
 
-OptAzur hosts a monthly seminar in Nice & Sophia-Antipolis.
+OptAzur organizes a monthly seminar in Nice and Sophia-Antipolis, which alternates between the two sites and takes place on the third Monday of each month.
 
 <iframe src="https://calendar.google.com/calendar/embed?src=777634d8e23d216a22f2e45d2f1c56cfd1b2cafd4dedb0f48458a55bef4f7a0f%40group.calendar.google.com&ctz=Europe%2FParis" style="border: 0" width="800" height="350" frameborder="0" scrolling="no"></iframe>
 
 ### Next talk
+
+Monday, September 18th, 2023 (Salle de conférence, LJAD, Nice)
+
+14h - [Jean-François Aujol](https://www.math.u-bordeaux.fr/~jaujol/) (Université de Bordeaux)
+
+**TBA**
+
+TBA
 
 ### Previous talks
 
