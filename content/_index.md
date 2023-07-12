@@ -6,13 +6,18 @@ OptAzur is an ongoing effort to foster collaborations among members of Universit
 
 OptAzur organizes a monthly seminar in Nice and Sophia-Antipolis, which alternates between the two sites and takes place on the third Monday of each month.
 
-<iframe src="https://calendar.google.com/calendar/embed?src=777634d8e23d216a22f2e45d2f1c56cfd1b2cafd4dedb0f48458a55bef4f7a0f%40group.calendar.google.com&ctz=Europe%2FParis" style="border: 0" width="800" height="350" frameborder="0" scrolling="no"></iframe>
-
 ### Next talk
 
 Monday, September 18th, 2023 (Salle de conférence, LJAD, Nice)
 
 14h - [Jean-François Aujol](https://www.math.u-bordeaux.fr/~jaujol/) (Université de Bordeaux)
+
+**FISTA is an automatic geometrically optimized algorithm for strongly convex functions**
+
+This work is related with large scale optimization. We are interested in the famous FISTA algorithm. We show that FISTA is an automatic geometrically optimized algorithm for functions satisfying a quadratic growth assumption. This explains why FISTA works better than the standard Forward-Backward algorithm (FB) in such a case, although FISTA is known to have a polynomial asymptotical convergence rate while FB is exponential. We provide a simple rule to tune the α parameter within the FISTA algorithm to reach an ε-solution with an optimal number of iterations. These new results highlight the efficiency of FISTA algorithms, and they rely on new non asymptotic bounds for FISTA.
+This is a joint work with Charles Dossal and Aude Rondepierre (INSA Toulouse).
+
+15h15 - [Marco Lorenzi](https://marcolorenzi.github.io) (Inria)
 
 **TBA**
 
