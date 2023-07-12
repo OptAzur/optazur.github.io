@@ -4,7 +4,7 @@ OptAzur is an ongoing effort to foster collaborations among members of Universit
 
 ## Seminar
 
-OptAzur organizes a monthly seminar in Nice and Sophia-Antipolis, which alternates between the two sites and takes place on the third Monday of each month.
+OptAzur organizes a monthly seminar in Nice and Sophia-Antipolis, which alternates between the two sites and takes place on the third Monday of each month. [Google Calendar](https://calendar.google.com/calendar/u/0?cid=Nzc3NjM0ZDhlMjNkMjE2YTIyZjJlNDVkMmYxYzU2Y2ZkMWIyY2FmZDRkZWRiMGY0ODQ1OGE1NWJlZjRmN2EwZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
 ### Next talk
 
