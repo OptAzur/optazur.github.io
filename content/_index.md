@@ -8,7 +8,7 @@ OptAzur organizes a monthly seminar in Nice and Sophia-Antipolis, which alternat
 
 ### Next talk
 
-Monday, September 18th, 2023 (Salle de conférence, LJAD, Nice)
+Monday, September 18th, 2023 (Salle Fizeau, LJAD, Nice)
 
 14h - [Jean-François Aujol](https://www.math.u-bordeaux.fr/~jaujol/) (Université de Bordeaux)
 
