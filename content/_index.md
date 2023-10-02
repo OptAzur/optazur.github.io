@@ -8,22 +8,32 @@ OptAzur organizes a monthly seminar in Nice and Sophia-Antipolis, which alternat
 
 ### Next talk
 
-Monday, September 18th, 2023 (Salle Fizeau, LJAD, Nice)
+Monday, October 16th, 2023 (I3S, Sophia-Antipolis)
 
-14h - [Jean-François Aujol](https://www.math.u-bordeaux.fr/~jaujol/) (Université de Bordeaux)
+14h - [Gersende Fort](https://perso.math.univ-toulouse.fr/gfort/) (CNRS, Institut de Mathématiques de Toulouse)
 
-**FISTA is an automatic geometrically optimized algorithm for strongly convex functions**
+**Stochastic Approximation beyond Gradient**
 
-This work is related with large scale optimization. We are interested in the famous FISTA algorithm. We show that FISTA is an automatic geometrically optimized algorithm for functions satisfying a quadratic growth assumption. This explains why FISTA works better than the standard Forward-Backward algorithm (FB) in such a case, although FISTA is known to have a polynomial asymptotical convergence rate while FB is exponential. We provide a simple rule to tune the α parameter within the FISTA algorithm to reach an ε-solution with an optimal number of iterations. These new results highlight the efficiency of FISTA algorithms, and they rely on new non asymptotic bounds for FISTA.
-This is a joint work with Charles Dossal and Aude Rondepierre (INSA Toulouse).
+In Machine Learning, many analyzes and methods rely on Optimization, including its stochastic versions introduced for example to tackle non-closed forms of the objective function or to reduce the computational cost.
+In 1951, H. Robbins and S. Monro introduced the method named "Stochastic Approximation" which is a root-finding method when the objective function is defined by an intractable expectation: it defines a sequence of iterates by using a Monte Carlo approximation of the expectation. Then, this method was generalized to solve a root-finding problem when only stochastic oracles of the objective field are available.
 
-15h15 - [Luca Calatroni](https://sites.google.com/view/lucacalatroni/home) (CNRS, I3S)
+Stochastic Gradient algorithms are the most popular instances of Stochastic Approximation. Nevertheless, Stochastic Approximation also contains far more general algorithms said "beyond gradient" since roughly, they consist in solving a minimization problem by using a vector field which is not a gradient field.  These "beyong gradient" Stochastic Approximation methods often come with the additional difficulty that the stochastic oracles are biased approximations of the vector field.   They occur in Computational Statistics (for example, some stochastic versions of Expectation Maximization are an instance of this beyond gradient case) and in Machine Learning as well (for example, some Temporal Difference algorithms for the estimation of the value function in Reinforcement Learning, are another instance).
 
-**Scaled, inexact and adaptive FISTA for (strongly) convex optimisation**
+This talk will first detail examples of such beyond gradient Stochastic Approximation methods. We will then show how to derive a general enough theory, in order to encompass as many as possible instances of Stochastic Approximation: we will emphasize the theory devoted to finite time analysis and will discuss how to choose design parameters of the algorithm in order to reach an epsilon-stationary point. We will finally show how to improve the original Stochastic Approximation scheme by plugging a variance reduction technique.
 
-We design an inexact, scaled and generalised Fast Iterative Soft-Thresholding Algorithm (FISTA) for minimising the sum of two (possibly strongly) convex functions. Inexactness is explicitly taken into account for describing situations where proximal operators cannot be evaluated in closed form. The use of data-dependent scaling allows to incorporate Newton-type information along the optimisation via variable-metric updates. Finally, non-monotone backtracking is used to improve convergence speed.  Linear convergence for the function values is proved with rates depending on backtracking/scaling and strong convexity parameters. The performance of the proposed algorithm, named SAGE-FISTA, is validated on exemplar imaging problems where sparsity-promoting (l_1, TV) regularisation is combined with popular data-fidelity terms. Numerical results show improved performance and practical efficiency under limited computational budget.
+This talk is based on joint works with Aymeric Dieuleveut (CMAP, Ecole Polytechnique), Eric Moulines (CMAP, Ecole Polytechnique) and Hoi-To Wai (Chinese University of Hong-Kong, Hong-Kong).
+
+15h15 - [Samuel Vaiter](https://samuelvaiter.com) (CNRS, Laboratoire J. A. Dieudonné)
+
+**Garanties de convergence pour la différentiation automatique**
+
+Dans cet exposé, je présenterai quelques résultats de convergence concernant la différentiation automatique d'algorithmes itératifs, qu'ils soient "lisses" ou non. Alors que les asymptotiques des problèmes lisses sont bien compris (Gilbert 1992, Beck 1994), principalement grâce à l'utilisation d'un théorème de point fixe, le cas non-lisse présente davantage de difficultés. Je montrerai comment le cadre des Jacobiens conservatifs permet d'obtenir de tels résultats. J'illustrerai également une stratégie à adopter lorsque l'opérateur n'est pas contractant, en prenant pour motivation la différentiation de l'algorithme de Sinkhorn-Knopp. Enfin, j'introduirai la différentiation en un coup, une méthode qui alliera la simplicité de la différentiation automatique à la performance de la différentiation implicite. Cette approche, particulièrement adéquate pour les algorithmes rapides, sera illustrée à travers des méthodes d'optimisation superlinéaires et des scénarios d'optimisation bi-niveaux. Travaux en collaboration avec J. Bolte et E. Pauwels.
 
 ### Previous talks
+
+Titles and abstracts [here](/previous)
+
+- #1: [Jean-François Aujol](https://www.math.u-bordeaux.fr/~jaujol/) (Université de Bordeaux) and [Luca Calatroni](https://sites.google.com/view/lucacalatroni/home) (CNRS, I3S)
 
 ## Events
 

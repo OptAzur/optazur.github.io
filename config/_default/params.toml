@@ -31,9 +31,9 @@ enableCodeCopy = false
   recentLimit = 5
 
 [article]
-  showDate = true
+  showDate = false
   showDateUpdated = false
-  showAuthor = true
+  showAuthor = false
   showBreadcrumbs = false
   showDraftLabel = true
   showEdit = false
@@ -42,7 +42,7 @@ enableCodeCopy = false
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
-  showReadingTime = true
+  showReadingTime = false
   showTableOfContents = false
   showTaxonomies = false
   showWordCount = false
