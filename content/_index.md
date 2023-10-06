@@ -37,7 +37,7 @@ Titles and abstracts [here](/previous)
 
 ## Events
 
-The members organize several conferences and workshop relevant to the optimization community, as detailled below.
+The members organize several conferences and workshops relevant to the optimization community, as detailled below.
 
 - [Bilevel optimization in machine learning and imaging sciences workshop](https://iciam2023.org/registered_data?id=00400) @[ICIAM 2023](https://iciam2023.org/accepted_ms#00400_Bilevel_optimization_in_machine_learning_and_imaging_sciences), Tokyo, Japan. (Organizers: L. Calatroni, S. Vaiter)
 
