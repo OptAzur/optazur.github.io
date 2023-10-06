@@ -8,9 +8,7 @@ OptAzur organizes a monthly seminar in Nice and Sophia-Antipolis, which alternat
 
 [Google Calendar](https://calendar.google.com/calendar/u/0?cid=Nzc3NjM0ZDhlMjNkMjE2YTIyZjJlNDVkMmYxYzU2Y2ZkMWIyY2FmZDRkZWRiMGY0ODQ1OGE1NWJlZjRmN2EwZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
-[Indico Calendar](https://indico.math.cnrs.fr/category/674)
-
-[Indico subscription](https://indico.math.cnrs.fr/category/674/events.ics?user_token=5028_H1YM2-rmITmgW7O10-SgrDIW0sQWLtM6EhJMmJy1u5A)
+[Indico Calendar](https://indico.math.cnrs.fr/category/674) (and [subscription](https://indico.math.cnrs.fr/category/674/events.ics?user_token=5028_H1YM2-rmITmgW7O10-SgrDIW0sQWLtM6EhJMmJy1u5A))
 
 ### Next talk
 
