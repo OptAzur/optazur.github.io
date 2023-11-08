@@ -1,6 +1,27 @@
 # Previous talks @OptAzur
 
-## OptAzur #1 -- Monday, September 18th, 2023
+## OptAzur #2 -- Monday, October 16th, 2023 (Sophia)
+
+14h - [Gersende Fort](https://perso.math.univ-toulouse.fr/gfort/) (CNRS, Institut de Mathématiques de Toulouse)
+
+**Stochastic Approximation beyond Gradient**
+
+In Machine Learning, many analyzes and methods rely on Optimization, including its stochastic versions introduced for example to tackle non-closed forms of the objective function or to reduce the computational cost.
+In 1951, H. Robbins and S. Monro introduced the method named "Stochastic Approximation" which is a root-finding method when the objective function is defined by an intractable expectation: it defines a sequence of iterates by using a Monte Carlo approximation of the expectation. Then, this method was generalized to solve a root-finding problem when only stochastic oracles of the objective field are available.
+
+Stochastic Gradient algorithms are the most popular instances of Stochastic Approximation. Nevertheless, Stochastic Approximation also contains far more general algorithms said "beyond gradient" since roughly, they consist in solving a minimization problem by using a vector field which is not a gradient field.  These "beyong gradient" Stochastic Approximation methods often come with the additional difficulty that the stochastic oracles are biased approximations of the vector field.   They occur in Computational Statistics (for example, some stochastic versions of Expectation Maximization are an instance of this beyond gradient case) and in Machine Learning as well (for example, some Temporal Difference algorithms for the estimation of the value function in Reinforcement Learning, are another instance).
+
+This talk will first detail examples of such beyond gradient Stochastic Approximation methods. We will then show how to derive a general enough theory, in order to encompass as many as possible instances of Stochastic Approximation: we will emphasize the theory devoted to finite time analysis and will discuss how to choose design parameters of the algorithm in order to reach an epsilon-stationary point. We will finally show how to improve the original Stochastic Approximation scheme by plugging a variance reduction technique.
+
+This talk is based on joint works with Aymeric Dieuleveut (CMAP, Ecole Polytechnique), Eric Moulines (CMAP, Ecole Polytechnique) and Hoi-To Wai (Chinese University of Hong-Kong, Hong-Kong).
+
+15h15 - [Samuel Vaiter](https://samuelvaiter.com) (CNRS, Laboratoire J. A. Dieudonné)
+
+**Garanties de convergence pour la différentiation automatique**
+
+Dans cet exposé, je présenterai quelques résultats de convergence concernant la différentiation automatique d'algorithmes itératifs, qu'ils soient "lisses" ou non. Alors que les asymptotiques des problèmes lisses sont bien compris (Gilbert 1992, Beck 1994), principalement grâce à l'utilisation d'un théorème de point fixe, le cas non-lisse présente davantage de difficultés. Je montrerai comment le cadre des Jacobiens conservatifs permet d'obtenir de tels résultats. J'illustrerai également une stratégie à adopter lorsque l'opérateur n'est pas contractant, en prenant pour motivation la différentiation de l'algorithme de Sinkhorn-Knopp. Enfin, j'introduirai la différentiation en un coup, une méthode qui alliera la simplicité de la différentiation automatique à la performance de la différentiation implicite. Cette approche, particulièrement adéquate pour les algorithmes rapides, sera illustrée à travers des méthodes d'optimisation superlinéaires et des scénarios d'optimisation bi-niveaux. Travaux en collaboration avec J. Bolte et E. Pauwels.
+
+## OptAzur #1 -- Monday, September 18th, 2023 (Nice)
 
 14h - [Jean-François Aujol](https://www.math.u-bordeaux.fr/~jaujol/) (Université de Bordeaux)
 
