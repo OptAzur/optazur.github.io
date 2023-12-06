@@ -12,22 +12,19 @@ OptAzur organizes a monthly seminar in Nice and Sophia-Antipolis, which alternat
 
 ### Next talk
 
-Monday, November 20th, 2023 (LJAD, Nice)
+Monday, December 18th, 2023 (I3S, Sophia)
 
-14h - [Massimiliano Pontil](https://www.iit.it/people-details/-/people/massimiliano-pontil) (Italian Institute of Technology and University College London)
+14h - [Maurizio Filippone](https://www.eurecom.fr/~filippon/) (EURECOM)
 
-**Learning Dynamical Systems Via Koopman Operator Regression**
+**One-Line-of-Code Data Mollification Improves Optimization of Likelihood-based Generative Models**
 
-Non-linear dynamical systems can be handily described by the associated Koopman operator, whose action evolves every observable of the system forward in time.
-These operators are instrumental to forecasting and interpreting the system dynamics, and have broad applications in science and engineering.
-The talk gives a gentle introduction to this topic, with a focus on theory and algorithms.
-We highlight the importance of algorithms that allow us to estimate the spectral decomposition of the Koopman operator well and explore how the quest for good representations for these operators can be formulated as an optimization problem involving neural networks.
+Generative Models (GMs) have attracted considerable attention due to their tremendous success in various domains, such as computer vision where they are capable to generate impressive realistic-looking images. Likelihood-based GMs are attractive due to the possibility to generate new data by a single model evaluation. However, they typically achieve lower sample quality compared to state-of-the-art score-based diffusion models (DMs). This paper provides a significant step in the direction of addressing this limitation. The idea is to borrow one of the strengths of score-based DMs, which is the ability to perform accurate density estimation in low-density regions and to address manifold overfitting by means of data mollification. We propose a view of data mollification within likelihood-based GMs as a continuation method, whereby the optimization objective smoothly transitions from simple-to-optimize to the original target. Crucially, data mollification can be implemented by adding one line of code in the optimization loop, and I will show that this provides a boost in generation quality of likelihood-based GMs, without computational overheads. I will then present results on real-world image data sets and UCI benchmarks with popular likelihood-based GMs, including variants of variational autoencoders and normalizing flows, showing large improvements in FID score and density estimation.
 
-15h15 - [Mathieu Carrière](https://www-sop.inria.fr/members/Mathieu.Carriere/) (Inria)
+15h15 - [Yassine Laguel](https://yassine-laguel.github.io) (LJAD, Nice)
 
-**A Framework to Differentiate Persistent Homology with Applications in Machine Learning and Statistics**
+**High Probability and Risk-Averse Guarantees for Stochastic Saddle Point Problems**
 
-Solving optimization tasks based on functions and losses with a topological flavor is a very active and growing field of research in data science and Topological Data Analysis, with applications in non-convex optimization, statistics and machine learning. However, the approaches proposed in the literature are usually anchored to a specific application and/or topological construction, and do not come with theoretical guarantees. To address this issue, we study the differentiability of a general map associated with the most common topological construction, that is, the persistence map. Building on real analytic geometry arguments, we propose a general framework that allows to define and compute gradients for persistence-based functions in a very simple way. We also provide a simple, explicit and sufficient condition for convergence of stochastic subgradient methods for such functions. This result encompasses all the constructions and applications of topological optimization in the literature. Finally, we will showcase some associated code, that is easy to handle and to mix with other non-topological methods and constraints, as well as some experiments demonstrating the versatility of the approach.
+We investigate the stochastic accelerated primal-dual algorithm for strongly-convex-strongly-concave saddle point problems, common in distributionally robust learning, game theory, and fairness in machine learning. Our algorithm offers optimal complexity in several settings and we provide high probability guarantees for convergence to a neighborhood of the saddle point. We derive analytical formulas for the limit covariance matrix and develop lower bounds to show that our analysis is tight. Our risk- averse convergence analysis characterizes the trade-offs between bias and risk in approximate solutions. We present numerical experiments on zero-sum games and robust learning problems.
 
 ### Previous talks
 
@@ -35,6 +32,7 @@ Titles and abstracts [here](/previous)
 
 - #1: [Jean-François Aujol](https://www.math.u-bordeaux.fr/~jaujol/) (Université de Bordeaux) and [Luca Calatroni](https://sites.google.com/view/lucacalatroni/home) (CNRS, I3S)
 - #2: [Gersende Fort](https://perso.math.univ-toulouse.fr/gfort/) (CNRS, Institut de Mathématiques de Toulouse) and [Samuel Vaiter](https://samuelvaiter.com) (CNRS, Laboratoire J. A. Dieudonné)
+- #3: [Massimiliano Pontil](https://www.iit.it/people-details/-/people/massimiliano-pontil) (Italian Institute of Technology and University College London) and [Mathieu Carrière](https://www-sop.inria.fr/members/Mathieu.Carriere/) (Inria)
 
 ## Events
 

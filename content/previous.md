@@ -1,5 +1,22 @@
 # Previous talks @OptAzur
 
+## OptAzur #3 -- Monday, November 20th, 2023 (Nice)
+
+14h - [Massimiliano Pontil](https://www.iit.it/people-details/-/people/massimiliano-pontil) (Italian Institute of Technology and University College London)
+
+**Learning Dynamical Systems Via Koopman Operator Regression**
+
+Non-linear dynamical systems can be handily described by the associated Koopman operator, whose action evolves every observable of the system forward in time.
+These operators are instrumental to forecasting and interpreting the system dynamics, and have broad applications in science and engineering.
+The talk gives a gentle introduction to this topic, with a focus on theory and algorithms.
+We highlight the importance of algorithms that allow us to estimate the spectral decomposition of the Koopman operator well and explore how the quest for good representations for these operators can be formulated as an optimization problem involving neural networks.
+
+15h15 - [Mathieu Carrière](https://www-sop.inria.fr/members/Mathieu.Carriere/) (Inria)
+
+**A Framework to Differentiate Persistent Homology with Applications in Machine Learning and Statistics**
+
+Solving optimization tasks based on functions and losses with a topological flavor is a very active and growing field of research in data science and Topological Data Analysis, with applications in non-convex optimization, statistics and machine learning. However, the approaches proposed in the literature are usually anchored to a specific application and/or topological construction, and do not come with theoretical guarantees. To address this issue, we study the differentiability of a general map associated with the most common topological construction, that is, the persistence map. Building on real analytic geometry arguments, we propose a general framework that allows to define and compute gradients for persistence-based functions in a very simple way. We also provide a simple, explicit and sufficient condition for convergence of stochastic subgradient methods for such functions. This result encompasses all the constructions and applications of topological optimization in the literature. Finally, we will showcase some associated code, that is easy to handle and to mix with other non-topological methods and constraints, as well as some experiments demonstrating the versatility of the approach.
+
 ## OptAzur #2 -- Monday, October 16th, 2023 (Sophia)
 
 14h - [Gersende Fort](https://perso.math.univ-toulouse.fr/gfort/) (CNRS, Institut de Mathématiques de Toulouse)
