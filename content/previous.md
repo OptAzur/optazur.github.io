@@ -1,5 +1,19 @@
 # Previous talks @OptAzur
 
+## OptAzur #4 -- Monday, December 18th, 2023 (Sophia)
+
+14h - [Maurizio Filippone](https://www.eurecom.fr/~filippon/) (EURECOM)
+
+**One-Line-of-Code Data Mollification Improves Optimization of Likelihood-based Generative Models**
+
+Generative Models (GMs) have attracted considerable attention due to their tremendous success in various domains, such as computer vision where they are capable to generate impressive realistic-looking images. Likelihood-based GMs are attractive due to the possibility to generate new data by a single model evaluation. However, they typically achieve lower sample quality compared to state-of-the-art score-based diffusion models (DMs). This paper provides a significant step in the direction of addressing this limitation. The idea is to borrow one of the strengths of score-based DMs, which is the ability to perform accurate density estimation in low-density regions and to address manifold overfitting by means of data mollification. We propose a view of data mollification within likelihood-based GMs as a continuation method, whereby the optimization objective smoothly transitions from simple-to-optimize to the original target. Crucially, data mollification can be implemented by adding one line of code in the optimization loop, and I will show that this provides a boost in generation quality of likelihood-based GMs, without computational overheads. I will then present results on real-world image data sets and UCI benchmarks with popular likelihood-based GMs, including variants of variational autoencoders and normalizing flows, showing large improvements in FID score and density estimation.
+
+15h15 - [Yassine Laguel](https://yassine-laguel.github.io) (LJAD, Nice)
+
+**High Probability and Risk-Averse Guarantees for Stochastic Saddle Point Problems**
+
+We investigate the stochastic accelerated primal-dual algorithm for strongly-convex-strongly-concave saddle point problems, common in distributionally robust learning, game theory, and fairness in machine learning. Our algorithm offers optimal complexity in several settings and we provide high probability guarantees for convergence to a neighborhood of the saddle point. We derive analytical formulas for the limit covariance matrix and develop lower bounds to show that our analysis is tight. Our risk- averse convergence analysis characterizes the trade-offs between bias and risk in approximate solutions. We present numerical experiments on zero-sum games and robust learning problems.
+
 ## OptAzur #3 -- Monday, November 20th, 2023 (Nice)
 
 14h - [Massimiliano Pontil](https://www.iit.it/people-details/-/people/massimiliano-pontil) (Italian Institute of Technology and University College London)
