@@ -1,5 +1,21 @@
 # Previous talks @OptAzur
 
+## OptAzur #5 -- Monday, January 15th, 2024 (LJAD, Nice)
+
+14h - [Marco Lorenzi](https://marcolorenzi.github.io) (Inria)
+
+**Federated Learning in Healthcare Applications: from Theory to Practice**
+
+This talk will illustrate current advances in federated learning (FL) for sensitive applications, from a both theoretical and practical perspectives. 
+In spite of the wide interest in the federated learning paradigm, current applications to sensitive domains, such as healthcare, are still challenging due to the complexity in dealing with heterogeneous and complex data hosted in different hospitals, as well as to the practical difficulty of deploying federated architectures in the real world.
+I will first cover a novel theory for modeling the impact of clients heterogeneity on the convergence guarantees of federated learning [1, 2]. In particular, I will study the robustness and variability of federated learning to heterogeneous conditions, by introducing the notion of stochastic aggregation weights. The proposed framework allows to derive novel federated optimization schemes to maximise the representativity and minimize the variability of clients contributions across federated optimization rounds.
+I will also introduce a novel perspective to Federated Unlearning (FU), a novel FL problem aiming at providing theoretical guarantees on the removal of the contribution of a given client from a federated training procedure. Upon unlearning request from a given client, FU is based on the definition of criteria to identify the optimal FL iteration from which FL has to be reinitialized, along with randomized perturbation mechanism to provide unlearning guarantees [3]. 
+Finally, from the practical standpoint, the talk will introduce Fed-BioMed, a development initiative aiming at translating federated learning to healthcare applications [4]. Fed-BioMed tackles the challenges required to meet real-world translation, concerning FL security, scalability and interoperability. I will give an illustration of the interplay between methodological development and translational effort that characterise the development of the Fed-BioMed FL platform, and discuss our current effort in delivering FL in hospitals networks. 
+[1] Fraboni Y., Vidal R., Kameni L. and Lorenzi M. Clustered sampling: Low-variance and improved representativity for clients selection in federated learning., In International Conference on Machine Learning (pp. 3407-3416). PMLR. 
+[2] Fraboni Y., Vidal R., Kameni L. and Lorenzi M. A General Theory for Federated Optimization with Asynchronous and Heterogeneous Clients Updates., Journal of Machine Learning Research (110):1-43, 2023.
+[3] Fraboni Y., Vidal R., Kameni L. and Lorenzi M. Sequential Informed Federated Unlearning: Efficient and Provable Client Unlearning in Federated Optimization., arXiv preprint arXiv:2211.11656.
+[4] Cremonesi F., et al.Fed-BioMed: Open, Transparent and Trusted Federated Learning for Real-world Healthcare Applications, White paper, arXiv:2304.12012.
+
 ## OptAzur #4 -- Monday, December 18th, 2023 (Sophia)
 
 14h - [Maurizio Filippone](https://www.eurecom.fr/~filippon/) (EURECOM)
