@@ -16,7 +16,9 @@ Monday, February 19th, 2024 (I3S, Sophia-Antipolis)
 
 14h - [Juan Peypouquet](https://www.rug.nl/staff/j.g.peypouquet/?lang=en) (University of Groningen)
 
-**TBA**
+**Accelerated optimization algorithms: the good, the bad and the odd**
+
+We give an accessible introduction to accelerated optimization algorithms. We will comment on the main ideas--including physical principles--that have led to a deeper understanding of their behavior, and produced new design strategies to further improve their numerical performance.
 
 15h15 - [Khazhgali Kozhasov](https://scholar.google.com/citations?user=cWl9pB0AAAAJ) (LJAD, Nice)
 
