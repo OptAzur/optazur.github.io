@@ -38,6 +38,7 @@ Titles and abstracts [here](/previous)
 - #3: [Massimiliano Pontil](https://www.iit.it/people-details/-/people/massimiliano-pontil) (Italian Institute of Technology and University College London) and [Mathieu Carrière](https://www-sop.inria.fr/members/Mathieu.Carriere/) (Inria)
 - #4: [Maurizio Filippone](https://www.eurecom.fr/~filippon/) (EURECOM) and [Yassine Laguel](https://yassine-laguel.github.io) (Laboratoire J. A. Dieudonné)
 - #5: [Marco Lorenzi](https://marcolorenzi.github.io) (Inria)
+- #6: [Juan Peypouquet](https://www.rug.nl/staff/j.g.peypouquet/?lang=en) (University of Groningen) and [Khazhgali Kozhasov](https://scholar.google.com/citations?user=cWl9pB0AAAAJ) (LJAD, Nice)
 
 ## Events
 
