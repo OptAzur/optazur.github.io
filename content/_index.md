@@ -12,19 +12,22 @@ OptAzur organizes a monthly seminar in Nice and Sophia-Antipolis, which alternat
 
 ### Next talk
 
-Monday, February 19th, 2024 (I3S, Sophia-Antipolis)
+Monday, March 18th, 2024 (LJAD, Nice)
 
-14h - [Juan Peypouquet](https://www.rug.nl/staff/j.g.peypouquet/?lang=en) (University of Groningen)
+14h - [Aris Daniilidis](https://www.arisdaniilidis.at) (VADOR, TU Wien)
 
-**Accelerated optimization algorithms: the good, the bad and the odd**
+**Descent operators in convex and nonsmooth analysis**
 
-We give an accessible introduction to accelerated optimization algorithms. We will comment on the main ideas--including physical principles--that have led to a deeper understanding of their behavior, and produced new design strategies to further improve their numerical performance.
+A convex continuous function can be determined, up to a constant, by its remoteness (distance of the subdifferential to zero). Based on this result, I will discuss possible extensions in two directions: robustness (sensitivity analysis) and general determination theory.
 
-15h15 - [Khazhgali Kozhasov](https://scholar.google.com/citations?user=cWl9pB0AAAAJ) (LJAD, Nice)
+15h15 - [Wellington de Oliveira](https://www.oliveira.mat.br) (Mines Paris)
 
-**Completely monotone functions and applications**
+**Computing Wasserstein Barycenter via operator splitting: the method of averaged marginals**
 
-Complete monotonicity of a smooth function on a convex cone is a strong property given by infinitely many sign conditions on the directional derivatives of the function. I will discuss results and questions around this concept that are motivated by research in convex optimization (interior-point methods), algebraic statistics (exponential families) and real algebraic geometry (hyperbolic and nonnegative polynomials). The talk is based on joint works with M. Michalek, B. Sturmfels and J.-B. Lasserre.
+The Wasserstein barycenter (WB) is an important tool for summarizing sets of probabilities. It finds applications in applied probability, clustering, image processing, etc. When the probability supports are finite, the problem of computing a WB is formulated as a linear optimization problem whose dimensions generally exceed standard solvers' capabilities. For this reason, the WB problem is often replaced with a simpler nonlinear optimization model constructed via an entropic regularization function so that specialized algorithms can be employed to compute an approximate WB efficiently. Contrary to such a widespread inexact scheme, we propose an exact approach based on the Douglas-Rachford splitting method applied directly to the WB linear optimization problem for applications requiring accurate WB.
+Our algorithm, which has the interesting interpretation of being built upon averaging marginals, operates a series of simple (and exact) projections that can be parallelized and even randomized, making it suitable for large-scale datasets. As a result, our method achieves good performance in terms of speed while still attaining accuracy. Furthermore, the same algorithm can be applied to compute generalized barycenters of sets of measures with different total masses by allowing for mass creation and destruction upon setting an additional parameter. Numerical comparisons against state-of-the-art methods on several data sets from the literature illustrate the method's performance.
+
+This is a joint work with Daniel Mimouni, Paul Malisani, Jiamin Zhu, from IFP Energies nouvelles.
 
 ### Previous talks
 

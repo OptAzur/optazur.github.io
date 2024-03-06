@@ -1,5 +1,19 @@
 # Previous talks @OptAzur
 
+## OptAzur #6 -- Monday, February 19th, 2024 (I3S, Sophia-Antipolis)
+
+14h - [Juan Peypouquet](https://www.rug.nl/staff/j.g.peypouquet/?lang=en) (University of Groningen)
+
+**Accelerated optimization algorithms: the good, the bad and the odd**
+
+We give an accessible introduction to accelerated optimization algorithms. We will comment on the main ideas--including physical principles--that have led to a deeper understanding of their behavior, and produced new design strategies to further improve their numerical performance.
+
+15h15 - [Khazhgali Kozhasov](https://scholar.google.com/citations?user=cWl9pB0AAAAJ) (LJAD, Nice)
+
+**Completely monotone functions and applications**
+
+Complete monotonicity of a smooth function on a convex cone is a strong property given by infinitely many sign conditions on the directional derivatives of the function. I will discuss results and questions around this concept that are motivated by research in convex optimization (interior-point methods), algebraic statistics (exponential families) and real algebraic geometry (hyperbolic and nonnegative polynomials). The talk is based on joint works with M. Michalek, B. Sturmfels and J.-B. Lasserre.
+
 ## OptAzur #5 -- Monday, January 15th, 2024 (LJAD, Nice)
 
 14h - [Marco Lorenzi](https://marcolorenzi.github.io) (Inria)
