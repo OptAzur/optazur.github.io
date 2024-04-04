@@ -6,28 +6,25 @@ OptAzur is an ongoing effort to foster collaborations among members of Universit
 
 OptAzur organizes a monthly seminar in Nice and Sophia-Antipolis, which alternates between the two sites and takes place on the third Monday of each month.
 
-[Google Calendar](https://calendar.google.com/calendar/u/0?cid=Nzc3NjM0ZDhlMjNkMjE2YTIyZjJlNDVkMmYxYzU2Y2ZkMWIyY2FmZDRkZWRiMGY0ODQ1OGE1NWJlZjRmN2EwZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-
 [Indico Calendar](https://indico.math.cnrs.fr/category/674) (and [subscription](https://indico.math.cnrs.fr/category/674/events.ics?user_token=5028_H1YM2-rmITmgW7O10-SgrDIW0sQWLtM6EhJMmJy1u5A))
 
 ### Next talk
 
-Monday, March 18th, 2024 (LJAD, Nice)
+Monday, April 15th, 2024 (LJAD, Nice)
 
-14h - [Aris Daniilidis](https://www.arisdaniilidis.at) (VADOR, TU Wien)
+14h - [Lorenzo Rosasco](https://web.mit.edu/lrosasco/www/) (University of Genova and MIT)
 
-**Descent operators in convex and nonsmooth analysis**
+**TBA**
 
-A convex continuous function can be determined, up to a constant, by its remoteness (distance of the subdifferential to zero). Based on this result, I will discuss possible extensions in two directions: robustness (sensitivity analysis) and general determination theory.
+TBA
 
-15h15 - [Wellington de Oliveira](https://www.oliveira.mat.br) (Mines Paris)
+15h15 - [Lénaïc Chizat](https://lchizat.github.io) (EPFL)
 
-**Computing Wasserstein Barycenter via operator splitting: the method of averaged marginals**
+**A Formula for Feature Learning in Large Neural Networks**
 
-The Wasserstein barycenter (WB) is an important tool for summarizing sets of probabilities. It finds applications in applied probability, clustering, image processing, etc. When the probability supports are finite, the problem of computing a WB is formulated as a linear optimization problem whose dimensions generally exceed standard solvers' capabilities. For this reason, the WB problem is often replaced with a simpler nonlinear optimization model constructed via an entropic regularization function so that specialized algorithms can be employed to compute an approximate WB efficiently. Contrary to such a widespread inexact scheme, we propose an exact approach based on the Douglas-Rachford splitting method applied directly to the WB linear optimization problem for applications requiring accurate WB.
-Our algorithm, which has the interesting interpretation of being built upon averaging marginals, operates a series of simple (and exact) projections that can be parallelized and even randomized, making it suitable for large-scale datasets. As a result, our method achieves good performance in terms of speed while still attaining accuracy. Furthermore, the same algorithm can be applied to compute generalized barycenters of sets of measures with different total masses by allowing for mass creation and destruction upon setting an additional parameter. Numerical comparisons against state-of-the-art methods on several data sets from the literature illustrate the method's performance.
+Deep learning succeeds by doing hierarchical feature learning, but tuning hyperparameters such as initialization scales, learning rates, etc., only give indirect control over this behavior. This calls for theoretical tools to predict, measure and control feature learning.  In this talk, we will first review various theoretical advances (signal propagation, infinite width dynamics, etc) that have led to a better understanding of the subtle impact of hyperparameters and architectural choices on the training dynamics. We will then introduce a formula which, in any architecture, quantifies feature learning in terms of more tractable quantities: statistics of the forward and backward passes, and a notion of alignment between the feature updates and the backward pass which captures an important aspect of the nature of feature learning. This formula suggests normalization rules for the forward and backward passes and for the layer-wise learning rates. To illustrate these ideas, I will discuss the feature learning behavior of ReLU MLPs and ResNets in the infinite width and depth limit. 
 
-This is a joint work with Daniel Mimouni, Paul Malisani, Jiamin Zhu, from IFP Energies nouvelles.
+Talk based on: https://arxiv.org/abs/2311.18718 (joint work with Praneeth Netrapalli)
 
 ### Previous talks
 
@@ -39,6 +36,7 @@ Titles and abstracts [here](/previous)
 - #4: [Maurizio Filippone](https://www.eurecom.fr/~filippon/) (EURECOM) and [Yassine Laguel](https://yassine-laguel.github.io) (Laboratoire J. A. Dieudonné)
 - #5: [Marco Lorenzi](https://marcolorenzi.github.io) (Inria)
 - #6: [Juan Peypouquet](https://www.rug.nl/staff/j.g.peypouquet/?lang=en) (University of Groningen) and [Khazhgali Kozhasov](https://scholar.google.com/citations?user=cWl9pB0AAAAJ) (LJAD, Nice)
+- #7: [Aris Daniilidis](https://www.arisdaniilidis.at) (VADOR, TU Wien) and [Wellington de Oliveira](https://www.oliveira.mat.br) (Mines Paris)
 
 ## Events
 
