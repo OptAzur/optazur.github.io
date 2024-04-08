@@ -14,9 +14,10 @@ Monday, April 15th, 2024 (LJAD, Nice)
 
 14h - [Lorenzo Rosasco](https://web.mit.edu/lrosasco/www/) (University of Genova and MIT)
 
-**TBA**
+**Being a kernel in the age of deep learning**
 
-TBA
+Reproducing Kernel Hilbert Spaces (RKHS) have been a cornerstone in disciplines ranging from quantum physics to signal processing since their inception in the 1950s. Their integration into statistics in the 1970s and their explosion onto the machine learning scene in the early 2000s were driven by their unusual combination of practical performance and elegant theory. However, the rise of deep learning in the early 21st century has shifted the spotlight, leading to questions about the current role of kernel methods in machine learning.
+I will develop the discussion along three lines. Firstly, I will illustrate how enhancements in scalability could still make kernel methods as useful tools especially when efficiency is mandatory.  Secondly, I will discuss the potential of kernel methods when learning  problems characterized by structural equations, such as  dynamical systems and partial differential equations. Lastly, I will delve into the distinctive features of RKHS in contrast to neural networks and discuss how the concept of Reproducing Kernel Banach Spaces may offer insights on the latter.
 
 15h15 - [Lénaïc Chizat](https://lchizat.github.io) (EPFL)
 
