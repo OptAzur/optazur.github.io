@@ -54,3 +54,9 @@ The members organize several conferences and workshops relevant to the optimizat
 - [Jean-Baptiste Caillau](https://caillau.perso.math.cnrs.fr)
 - [Yassine Laguel](https://yassine-laguel.github.io)
 - [Samuel Vaiter](https://samuelvaiter.com) (co-organizer)
+
+## Fundings
+
+![ANR](/img/anr.png)
+![LJAD](/img/ljad.png)
+![I3S](/img/i3s.png)

@@ -1,17 +1,13 @@
 languageCode = "en"
 languageName = "English"
-displayName = "EN"
-isoCode = "en"
-weight = 1
-rtl = false
 
 title = "OptAzur"
-description = "OptAzur: Optimization in French Riviera"
 copyright = "Samuel Vaiter"
 
-dateFormat = "2 January 2006"
 
 [params]
+  description = "OptAzur: Optimization in French Riviera"
+  dateFormat = "2 January 2006"
   # mainSections = ["section1", "section2"]
 
 [author]

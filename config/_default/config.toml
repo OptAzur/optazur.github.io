@@ -4,7 +4,7 @@
 
 theme = "congo"
 baseURL = "https://optazur.github.io"
-defaultContentLanguage = "en"
+languageCode = "en"
 
 enableRobotsTXT = true
 paginate = 10
