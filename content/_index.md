@@ -10,22 +10,19 @@ OptAzur organizes a monthly seminar in Nice and Sophia-Antipolis, which alternat
 
 ### Next talk
 
-Monday, April 15th, 2024 (LJAD, Nice)
+Monday, June 3rd, 2024 (LJAD, Nice)
 
-14h - [Lorenzo Rosasco](https://web.mit.edu/lrosasco/www/) (University of Genova and MIT)
+14h - [Emmanuel Soubies](https://www.irit.fr/~Emmanuel.Soubies/) (CNRS, IRIT, ENSEEIHT)
 
-**Being a kernel in the age of deep learning**
+**Exact Continuous Relaxations of L0-Regularized Generalized Linear Models**
 
-Reproducing Kernel Hilbert Spaces (RKHS) have been a cornerstone in disciplines ranging from quantum physics to signal processing since their inception in the 1950s. Their integration into statistics in the 1970s and their explosion onto the machine learning scene in the early 2000s were driven by their unusual combination of practical performance and elegant theory. However, the rise of deep learning in the early 21st century has shifted the spotlight, leading to questions about the current role of kernel methods in machine learning.
-I will develop the discussion along three lines. Firstly, I will illustrate how enhancements in scalability could still make kernel methods useful tools especially when efficiency is mandatory.  Secondly, I will discuss the potential of kernel methods when learning  problems characterized by structural equations, such as  dynamical systems and partial differential equations. Lastly, I will delve into the distinctive features of RKHS in contrast to neural networks and discuss how the concept of Reproducing Kernel Banach Spaces may offer insights on the latter. 
+Sparse generalized linear models are widely used in fields such as statistics, computer vision, signal/image processing and machine learning. The natural sparsity promoting regularizer is the l0 pseudo-norm which is discontinuous and non-convex. In this talk, we will present the l0-Bregman relaxation (B-Rex), a general framework to compute exact continuous relaxations of such l0-regularized criteria. Although in general still non-convex, these continuous relaxations are qualified as exact in the sense that they let unchanged the set of global minimizer while enjoying a better optimization landscape. In particular, we will show that some local minimizers of the initial functional are eliminated by these relaxations. Finally, these properties will be illustrated on both sparse Kullback-Leibler regression and sparse logistic regression problems.
 
-15h15 - [Lénaïc Chizat](https://lchizat.github.io) (EPFL)
+15h15 - [Luc Pronzato](https://sites.google.com/view/luc-pronzato-fr/accueil) (CNRS, I3S)
 
-**A Formula for Feature Learning in Large Neural Networks**
+**Safe screening rules in convex optimisation: some examples in optimal design of experiments**
 
-Deep learning succeeds by doing hierarchical feature learning, but tuning hyperparameters such as initialization scales, learning rates, etc., only give indirect control over this behavior. This calls for theoretical tools to predict, measure and control feature learning.  In this talk, we will first review various theoretical advances (signal propagation, infinite width dynamics, etc) that have led to a better understanding of the subtle impact of hyperparameters and architectural choices on the training dynamics. We will then introduce a formula which, in any architecture, quantifies feature learning in terms of more tractable quantities: statistics of the forward and backward passes, and a notion of alignment between the feature updates and the backward pass which captures an important aspect of the nature of feature learning. This formula suggests normalization rules for the forward and backward passes and for the layer-wise learning rates. To illustrate these ideas, I will discuss the feature learning behavior of ReLU MLPs and ResNets in the infinite width and depth limit. 
-
-Talk based on: https://arxiv.org/abs/2311.18718 (joint work with Praneeth Netrapalli)
+Many convex optimisation problems can be formulated as the minimisation of a convex function of a probability measure over a given set. Typical examples include determining the ellipsoid of minimum volume, or the smallest ball, containing a set of points. When it is known in advance that the optimal measure will be supported by a small number of points, it is advantageous to eliminate unnecessary points (candidates) in order to simplify the problem. Safe screening rules aim to eliminate such points: a rule defines a test to be applied to the candidates in order to eliminate those that are useless; a rule is safe when no point supporting an optimal measure is eliminated. The aim is to apply the screening rule during optimisation, regardless of the optimisation algorithm used. Usually, the efficiency of elimination increases when approaching the optimum, so the rule should be applied several (many) times and be as simple as possible. In addition to the construction of ellipsoids and balls of minimal volume, I will present the construction of screening rules for different criteria in optimal design of experiments, some of them with a link to (quadratic) Lasso. Parts of this work are based on  collaborations with Radoslav Harman (Comenius University, Bratislava) and Guillaume Sagnol (TU Berlin).
 
 ### Previous talks
 
@@ -38,6 +35,7 @@ Titles and abstracts [here](/previous)
 - #5: [Marco Lorenzi](https://marcolorenzi.github.io) (Inria)
 - #6: [Juan Peypouquet](https://www.rug.nl/staff/j.g.peypouquet/?lang=en) (University of Groningen) and [Khazhgali Kozhasov](https://scholar.google.com/citations?user=cWl9pB0AAAAJ) (LJAD, Nice)
 - #7: [Aris Daniilidis](https://www.arisdaniilidis.at) (VADOR, TU Wien) and [Wellington de Oliveira](https://www.oliveira.mat.br) (Mines Paris)
+- #8: [Lorenzo Rosasco](https://web.mit.edu/lrosasco/www/) (University of Genova and MIT) and [Lénaïc Chizat](https://lchizat.github.io) (EPFL)
 
 ## Events
 

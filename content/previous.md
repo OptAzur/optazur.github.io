@@ -1,5 +1,22 @@
 # Previous talks @OptAzur
 
+## OptAzur #8 -- Monday, April 15th, 2024 (LJAD, Nice)
+
+14h - [Lorenzo Rosasco](https://web.mit.edu/lrosasco/www/) (University of Genova and MIT)
+
+**Being a kernel in the age of deep learning**
+
+Reproducing Kernel Hilbert Spaces (RKHS) have been a cornerstone in disciplines ranging from quantum physics to signal processing since their inception in the 1950s. Their integration into statistics in the 1970s and their explosion onto the machine learning scene in the early 2000s were driven by their unusual combination of practical performance and elegant theory. However, the rise of deep learning in the early 21st century has shifted the spotlight, leading to questions about the current role of kernel methods in machine learning.
+I will develop the discussion along three lines. Firstly, I will illustrate how enhancements in scalability could still make kernel methods useful tools especially when efficiency is mandatory.  Secondly, I will discuss the potential of kernel methods when learning  problems characterized by structural equations, such as  dynamical systems and partial differential equations. Lastly, I will delve into the distinctive features of RKHS in contrast to neural networks and discuss how the concept of Reproducing Kernel Banach Spaces may offer insights on the latter. 
+
+15h15 - [Lénaïc Chizat](https://lchizat.github.io) (EPFL)
+
+**A Formula for Feature Learning in Large Neural Networks**
+
+Deep learning succeeds by doing hierarchical feature learning, but tuning hyperparameters such as initialization scales, learning rates, etc., only give indirect control over this behavior. This calls for theoretical tools to predict, measure and control feature learning.  In this talk, we will first review various theoretical advances (signal propagation, infinite width dynamics, etc) that have led to a better understanding of the subtle impact of hyperparameters and architectural choices on the training dynamics. We will then introduce a formula which, in any architecture, quantifies feature learning in terms of more tractable quantities: statistics of the forward and backward passes, and a notion of alignment between the feature updates and the backward pass which captures an important aspect of the nature of feature learning. This formula suggests normalization rules for the forward and backward passes and for the layer-wise learning rates. To illustrate these ideas, I will discuss the feature learning behavior of ReLU MLPs and ResNets in the infinite width and depth limit. 
+
+Talk based on: https://arxiv.org/abs/2311.18718 (joint work with Praneeth Netrapalli)
+
 ## OptAzur #7 -- Monday, March 18th, 2024 (LJAD, Nice)
 
 14h - [Aris Daniilidis](https://www.arisdaniilidis.at) (VADOR, TU Wien)
