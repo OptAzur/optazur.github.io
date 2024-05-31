@@ -10,7 +10,7 @@ OptAzur organizes a monthly seminar in Nice and Sophia-Antipolis, which alternat
 
 ### Next talk
 
-Monday, June 3rd, 2024 (LJAD, Nice)
+Monday, June 3rd, 2024 (I3S, Sophia-Antipolis)
 
 14h - [Emmanuel Soubies](https://www.irit.fr/~Emmanuel.Soubies/) (CNRS, IRIT, ENSEEIHT)
 

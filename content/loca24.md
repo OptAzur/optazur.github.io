@@ -23,7 +23,7 @@ The workshop will take place at the [I3S](https://www.i3s.unice.fr/en/) institut
 
 ## Schedule
 
-September 23: Mini-cours by [Elsa Cazelles](https://www.irit.fr/~Elsa.Cazelles/)
+September 23: Mini-cours "Optimal Transport in Machine Learning" by [Elsa Cazelles](https://www.irit.fr/~Elsa.Cazelles/)
 
 September 24-25: Talks, TBA
 
