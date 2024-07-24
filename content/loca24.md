@@ -61,5 +61,6 @@ The workshop will take place at the [I3S](https://www.i3s.unice.fr/en/) institut
 
 ## Sponsors
 
+![Morpheme](/img/morpheme.png)
 ![Inria](/img/inria.png)
 ![RT MAIAGES](/img/maiages.png)
