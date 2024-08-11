@@ -88,9 +88,28 @@ Abstract: TBA
 - 15:00-15:30: Coffee break
 - 15:30-16:30: Gabriele Steidl
 
-**TBA**
+**Gradient flows, non-smooth kernels and generative models for posterior sampling in inverse problems**
 
-Abstract: TBA
+Abstract: This talk is concerned with inverse problems in imaging from
+a Bayesian point of view, i.e. we want to sample from the posterior 
+given noisy measurement. 
+We tackle the problem by studying gradient flows of particles in high dimensions.
+More precisely, we analyze Wasserstein gradient flows 
+of maximum mean discrepancies defined with respect to different kernels, 
+including non-smooth ones.
+In high dimensions, we propose the efficient flow computation via Radon transform (slicing) and
+subsequent sorting or Fourier transform at nonequispaced knots.
+Special attention is paid to non-smooth Riesz kernels.
+We will see that Wasserstein gradient flows 
+of corresponding maximum mean discrepancies have a rich structure. 
+In particular, singular measures can become absolutely continuous 
+ones and conversely.
+Finally, we approximate our particle flows by conditional generative neural networks 
+and apply them for conditional image generation and in inverse image restoration problems
+like computerized tomography and superresolution.
+This is joint work with 
+Johannes Hertrich (UCL) and 
+Paul Hagemann, Fabian Altekrüger, Robert Beinert, Jannis Chemseddine, Manual Gräf, Christian Wald (TU Berlin).
 
 ## Scientific committee
 - Laure Blanc-Féraud
