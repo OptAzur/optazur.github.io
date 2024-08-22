@@ -81,7 +81,9 @@ Abstract: Transformers deep networks define “in-context mappings'”, which en
 - 12:00-14:00: Lunch
 - 14:00-15:00: Jérôme Malick
 
-**TBA**
+**Towards more resilient, robust, responsible decisions**
+
+This talk will be a gentle introduction to — and a passionate advocacy for — distributionally robust optimization (DRO). Beyond the classical empirical risk minimization paradigm in machine learning, DRO has the ability to effectively address data uncertainty and distribution ambiguity, thus paving the way to more robust and fair models. In this talk, I will highlight the key mathematical ideas, the main algorithmic challenges, and some versatile applications of DRO. I will insist on the statistical properties of DRO with Wasserstein uncertainty, and I will finally present an easy-to-use toolbox (with scikit-learn and PyTorch interfaces) to make your own models more robust.
 
 Abstract: TBA
 
