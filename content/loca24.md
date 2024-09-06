@@ -40,11 +40,11 @@ The workshop will take place at the [I3S](https://www.i3s.unice.fr/en/) institut
 Abstract: TBA
 
 - 10:30-11:00: Coffee break
-- 11:00-12:00: Aurélien Bellet
+- 11:00-12:00: Jérôme Malick
 
-**Differentially Private Optimization with Coordinate Descent and Fixed-Point Iterations**
+**Towards more resilient, robust, responsible decisions**
 
-Abstract: Machine learning models are known to leak information about individual data points used to train them. Differentially private optimization aims to address this problem by training models with strong differential privacy guarantees. This is achieved by adding controlled noise to the optimization process, for instance during the gradient computation steps in the case of the popular DP-SGD algorithm. In this talk, I will discuss how to beyond DP-SGD by (i) introducing private coordinate descent algorithms that can better exploit the problem structure, and (ii) leveraging the framework of fixed-point iterations to design and analyze new private optimization algorithms for centralized and federated settings. 
+This talk will be a gentle introduction to — and a passionate advocacy for — distributionally robust optimization (DRO). Beyond the classical empirical risk minimization paradigm in machine learning, DRO has the ability to effectively address data uncertainty and distribution ambiguity, thus paving the way to more robust and fair models. In this talk, I will highlight the key mathematical ideas, the main algorithmic challenges, and some versatile applications of DRO. I will insist on the statistical properties of DRO with Wasserstein uncertainty, and I will finally present an easy-to-use toolbox (with scikit-learn and PyTorch interfaces) to make your own models more robust.
 
 - 12:00-14:00: Lunch
 - 14:00-15:00: Session poster
@@ -79,13 +79,11 @@ Abstract: We present a new algorithm to optimize distributions defined implicitl
 Abstract: Transformers deep networks define “in-context mappings'”, which enable them to predict new tokens based on a given set of tokens (such as a prompt in NLP applications or a set of patches for vision transformers). This work studies the ability of these architectures to handle an arbitrarily large number of context tokens. To mathematically and uniformly address the expressivity of these architectures, we consider that the mapping is conditioned on a context represented by a probability distribution of tokens (discrete for a finite number of tokens). The related notion of smoothness corresponds to continuity in terms of the Wasserstein distance between these contexts. We demonstrate that deep transformers are universal and can approximate continuous in-context mappings to arbitrary precision, uniformly over compact token domains. A key aspect of our results, compared to existing findings, is that for a fixed precision, a single transformer can operate on an arbitrary (even infinite) number of tokens. Additionally, it operates with a fixed embedding dimension of tokens (this dimension does not increase with precision) and a fixed number of heads (proportional to the dimension). The use of MLP layers between multi-head attention layers is also explicitly controlled. This is a joint work with Takashi Furuya (Shimane Univ.) and Maarten de Hoop (Rice Univ.).
 
 - 12:00-14:00: Lunch
-- 14:00-15:00: Jérôme Malick
+- 14:00-15:00: Aurélien Bellet
 
-**Towards more resilient, robust, responsible decisions**
+**Differentially Private Optimization with Coordinate Descent and Fixed-Point Iterations**
 
-This talk will be a gentle introduction to — and a passionate advocacy for — distributionally robust optimization (DRO). Beyond the classical empirical risk minimization paradigm in machine learning, DRO has the ability to effectively address data uncertainty and distribution ambiguity, thus paving the way to more robust and fair models. In this talk, I will highlight the key mathematical ideas, the main algorithmic challenges, and some versatile applications of DRO. I will insist on the statistical properties of DRO with Wasserstein uncertainty, and I will finally present an easy-to-use toolbox (with scikit-learn and PyTorch interfaces) to make your own models more robust.
-
-Abstract: TBA
+Abstract: Machine learning models are known to leak information about individual data points used to train them. Differentially private optimization aims to address this problem by training models with strong differential privacy guarantees. This is achieved by adding controlled noise to the optimization process, for instance during the gradient computation steps in the case of the popular DP-SGD algorithm. In this talk, I will discuss how to beyond DP-SGD by (i) introducing private coordinate descent algorithms that can better exploit the problem structure, and (ii) leveraging the framework of fixed-point iterations to design and analyze new private optimization algorithms for centralized and federated settings.
 
 - 15:00-15:30: Coffee break
 - 15:30-16:30: Gabriele Steidl
