@@ -113,7 +113,6 @@ Paul Hagemann, Fabian Altekrüger, Robert Beinert, Jannis Chemseddine, Manual Gr
 
 ## Scientific committee
 - Laure Blanc-Féraud
-- Jean-Baptiste Caillau
 - Luca Calatroni
 - Yassine Laguel
 - Samuel Vaiter
