@@ -10,7 +10,7 @@ The workshop focuses on optimization applied to solving problems in imaging and 
 
 - [Aurélien Bellet](http://researchers.lille.inria.fr/abellet/) (Inria)
 - [Jérôme Bolte](https://www.tse-fr.eu/fr/people/jerome-bolte) (Toulouse School of Economics)
-- [Claire Boyer](https://perso.lpsm.paris/~cboyer/) (Sorbonne Université)
+- [Claire Boyer](https://perso.lpsm.paris/~cboyer/) (Université Paris-Saclay)
 - [Julie Delon](https://judelo.github.io/) (Université Paris-Descartes)
 - [Anna Korba](https://akorba.github.io/) (ENSAE)
 - [Jérôme Malick](https://membres-ljk.imag.fr/Jerome.Malick/index.html) (CNRS, Université Grenoble-Alpes)
