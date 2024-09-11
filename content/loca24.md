@@ -11,11 +11,11 @@ The workshop focuses on optimization applied to solving problems in imaging and 
 - [Aurélien Bellet](http://researchers.lille.inria.fr/abellet/) (Inria)
 - [Jérôme Bolte](https://www.tse-fr.eu/fr/people/jerome-bolte) (Toulouse School of Economics)
 - [Claire Boyer](https://perso.lpsm.paris/~cboyer/) (Université Paris-Saclay)
-- [Julie Delon](https://judelo.github.io/) (Université Paris-Descartes)
 - [Anna Korba](https://akorba.github.io/) (ENSAE)
 - [Jérôme Malick](https://membres-ljk.imag.fr/Jerome.Malick/index.html) (CNRS, Université Grenoble-Alpes)
 - [Gabriel Peyré](https://www.gpeyre.com/) (CNRS, École Normale Supérieure)
 - [Gabriele Steidl](https://page.math.tu-berlin.de/~steidl/) (TU Berlin)
+- [Eloi Tanguy](https://eloitanguy.github.io/) (Université Paris-Descartes)
 
 ## Location
 
@@ -35,9 +35,10 @@ The workshop will take place at the [I3S](https://www.i3s.unice.fr/en/) institut
 - 09:00-09:30: Welcome
 - 09:30-10:30: Jérôme Bolte
 
-**TBA**
+**A bestiary of counterexamples in smooth convex optimization**
 
-Abstract: TBA
+Abstract:  Counterexamples to some old-standing optimization problems in the smooth convex coercive setting will be provided. For instance, block-coordinate descent, steepest descent with exact search or Bregman descent methods do not generally converge. Other failures of various desirable features will be discussed: directional convergence of Cauchy’s gradient curves, convergence of Newton’s flow, finite length of Tikhonov path, convergence of central paths, or smooth Kurdyka-Lojasiewicz inequalities. 
+All examples are planar. These examples rely on a new convex interpolation result: given a decreasing sequence of positively curved C^k smooth convex compact sets in the plane, we can interpolate these sets through the sublevel sets of a C^k smooth convex function where k ≥ 2 is arbitrary. 
 
 - 10:30-11:00: Coffee break
 - 11:00-12:00: Jérôme Malick
@@ -47,20 +48,20 @@ Abstract: TBA
 This talk will be a gentle introduction to — and a passionate advocacy for — distributionally robust optimization (DRO). Beyond the classical empirical risk minimization paradigm in machine learning, DRO has the ability to effectively address data uncertainty and distribution ambiguity, thus paving the way to more robust and fair models. In this talk, I will highlight the key mathematical ideas, the main algorithmic challenges, and some versatile applications of DRO. I will insist on the statistical properties of DRO with Wasserstein uncertainty, and I will finally present an easy-to-use toolbox (with scikit-learn and PyTorch interfaces) to make your own models more robust.
 
 - 12:00-14:00: Lunch
-- 14:00-15:00: Session poster
-- 15:00-16:00: Julie Delon
-
-**TBA**
-
-Abstract: TBA
-
-- 16:00-16:30: Coffee break
-- 16:30-17:30: Claire Boyer
+- 14:00-15:00: Claire Boyer
 
 **A primer on physics-informed learning**
 
 Abstract: Physics-informed machine learning combines the expressiveness of data-based approaches with the interpretability of physical models. In this context, we consider a general regression problem where the empirical risk is regularized by a partial differential equation that quantifies the physical inconsistency. 
 Practitioners often resort to physics-informed neural networks (PINNs) to solve this kind of problem. After discussing some strengths and limitations of PINNs, we prove that for linear differential priors, the problem can be formulated directly as a kernel regression task, giving a rigorous framework to analyze physics-informed ML. In particular, the physical prior can help in boosting the estimator convergence.
+
+- 15:00-15:30: Coffee break
+- 15:30-16:30: Eloi Tanguy
+
+**Optimisation Properties of the Discrete Sliced Wasserstein Distance**
+
+Abstract: For computational reasons, the Sliced Wasserstein distance is commonly used in practice to compare discrete probability measures with uniform weights and the same amount of points. We will address the properties of this energy as a function of the support of one of the measures. We study the regularity and optimisation properties of this energy, as well as its Monte Carlo approximation (estimating the expected SW using samples on the projections), including both the asymptotic and non-asymptotic statistical properties of the estimation. Finally, we show that in a certain sense, stochastic gradient descent methods that minimise these energies converge to (generalised) critical points, with an extension to training generative neural networks.
+
 
 
 ### September 25: Conference
